@@ -3,6 +3,8 @@ body {
     background-repeat: no-repeat;
     color: white;
     scroll-padding: 0;
+    padding: 5%;
+    width: 100%;
 }
 
 h1 {
@@ -21,14 +23,39 @@ h2 {
     margin-right: 25%;
     text-align: left;
 }
-
-
 .hardware-list,
  .peri-list,
  .Software-list
  {
     color: white;
-    /*margin-left: 30%;
-    margin-right: 25%;*/
-    text-align: left;
+    width: 100%;
+    text-align: center;
 }
+
+.ryzen5 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.textprocessor{
+    max-width: 50%;
+    text-align: center;
+}
+
+/*
+.topbuttom{
+    margin-top: 6.4rem;
+    width: 100%;
+    height: 6.4rem;
+    border: 0;
+    cursor: pointer;
+    background: #3cdc8c;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+    text-decoration: none;
+  }*/
