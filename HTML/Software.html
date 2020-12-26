@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Felipe Rodrigues" />
-    <title>Document</title>
+    <title>Software</title>
 
     <link rel="stylesheet" href="../CSS/Style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
+    <button id="ButtonTop" onclick="scrollToTop()" >
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    <script>
+      function scrollToTop() { 
+          window.scrollTo(0, 0);
+      }
+    </script>
     <h2 id="Software">Software:</h2>
-      <div class="Hardware-list">
+      <div class="list">
     <ul>
       <li>Ubuntu <abbr title=" Long Term Support ">LTS</abbr> 20.04</li>
       <li>Windows 10</li>

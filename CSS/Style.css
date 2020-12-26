@@ -5,44 +5,48 @@ body {
   text-align: center;
 }
 
-h1,
-h2 {
-  color: white;
+html, 
+body {
+  scroll-behavior: smooth;
 }
 
-.principal-list,
-.hardware-list,
-.peri-list,
-.Software-list {
+h1,
+h2 {
+  color: white;  
+  /*rgb(100, 55, 206);*/
+}
+
+.list {
   color: white;
   text-align: center;
 }
 
 .Img{
+  padding-top: 20px;
   width: 100%;
   max-width: 400px;
   height: auto;
 }
 
 .Text {
-  text-align: left;
   padding-left: 20%;
   padding-right: 20%;
+  text-align: justify;
 }
 
-/*
-.topbuttom{
-    margin-top: 6.4rem;
-    width: 100%;
-    height: 6.4rem;
-    border: 0;
-    cursor: pointer;
-    background: #3cdc8c;
-    border-radius: 2rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.2s;
-    text-decoration: none;
-  }*/
+#ButtonTop {
+  border-radius: 50%;
+  background-color: rgb(50, 233, 50);
+  padding: 20px 20px;
+  border: none;
+  Position: fixed;
+  Bottom: 10px; 
+  Right: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#ButtonTop:hover {
+  background-color: rgb(0, 66, 9);
+  transition: 0.3s;
+}

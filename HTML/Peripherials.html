@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Felipe Rodrigues" />
-    <title>Document</title>
+    <title>Peripherals</title>
 
     <link rel="stylesheet" href="../CSS/Style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
+    <button id="ButtonTop" onclick="scrollToTop()" >
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    <script>
+      function scrollToTop() { 
+          window.scrollTo(0, 0);
+      }
+    </script>
     <h2 id="Peripherals">Peripherals:</h2>
-      <div class="peri-list">
+      <div class="list">
     <ul>
       <li>Echo Dot 3 (Alexa)</li>
       <li>AKG K92</li>
